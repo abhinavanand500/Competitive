@@ -1,0 +1,34 @@
+n=int(input())
+for i in range(n):
+    a,b=map(int,input().split())
+    count=0
+    if(a>b):
+        while(a!=b):
+            if(b*8<=a):
+                b=b*8
+                count+=1
+            elif(b*4<=a):
+                b=b*4
+                count+=1
+            elif(b*2<=a):
+                b=b*2
+                count+=1
+            else:
+                count=-1
+                break
+    elif(a<b):
+        while(a!=b):
+            if(a*8<=b):
+                a=a*8
+                count+=1
+            elif(a*4<=b):
+                a=a*4
+                count+=1
+            elif(a*2<=b):
+                a=a*2
+                count+=1
+            else:
+                count=-1
+                break
+
+    print(count)
