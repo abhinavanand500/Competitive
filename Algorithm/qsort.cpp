@@ -1,6 +1,5 @@
 #include<iostream>
 using namespace std;
-
 int partition(int arr[], int l, int h)
 {
     int pi,i,temp,j;
@@ -36,8 +35,6 @@ void qsort(int arr[], int l,int h)
         qsort(arr,pi+1,h);
     }
 }
-
-
 int main()
 {
     int n;
