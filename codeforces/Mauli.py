@@ -29,8 +29,6 @@
 
 
 MAX_CHAR = [26]
-
-
 def minChanges(str):
     n = len(str)
     if (n > MAX_CHAR[0]):
