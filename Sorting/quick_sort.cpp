@@ -23,9 +23,6 @@ int partition(int a[], int low, int high){
     a[j]=pi;
     return j;
 }
-
-
-
 int qsort(int a[], int low, int high){
     int pi;
     if(low<high){
