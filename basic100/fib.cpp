@@ -2,15 +2,15 @@
 using namespace std;
 int main()
 {
-    int n, n1 = 0, n2 = 1, sum = 0;
-    cout << "Enter the range ::  ";
+    int n, a = 0, b = 1, c;
+    cout << "Enter the number ::  ";
     cin >> n;
+    cout << "\n";
     for (int i = 0; i < n; i++)
     {
-        cout << n1 << "  ";
-        sum = n1 + n2;
-        n1 = n2;
-        n2 = sum;
+        cout << a << "  ";
+        c = a + b;
+        a = b;
+        b = c;
     }
-    cout << "\n";
 }
