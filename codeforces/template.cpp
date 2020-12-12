@@ -70,7 +70,5 @@ int32_t main()
 	while(t--)
 	{
 		int n;
-		
 	}
-
 }
