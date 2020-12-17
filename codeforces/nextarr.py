@@ -6,3 +6,4 @@ for i in arr:
     if(i>0 and i>=maxi):
         count+=1
 print(count)
+# CodeForces
